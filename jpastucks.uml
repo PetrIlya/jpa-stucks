@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.petrilya.jpastucks</OriginalElement>
+  <nodes>
+    <node x="181.0" y="1529.0">com.github.petrilya.jpastucks.view.UserInterfaceAdapter</node>
+    <node x="-35.0" y="1573.0">com.github.petrilya.jpastucks.SwingApp</node>
+    <node x="1033.5" y="2554.0">com.github.petrilya.jpastucks.view.CreateCollection</node>
+    <node x="3059.5" y="2059.0">com.github.petrilya.jpastucks.entity.ImageCollection</node>
+    <node x="2026.5" y="71.0">com.github.petrilya.jpastucks.service.ImageService</node>
+    <node x="1449.0" y="2798.0">com.github.petrilya.jpastucks.service.UserService</node>
+    <node x="2389.5" y="293.0">com.github.petrilya.jpastucks.repository.ImageRepository</node>
+    <node x="2979.5" y="3351.0">com.github.petrilya.jpastucks.service.ImageCollectionService</node>
+    <node x="1480.0" y="2105.0">com.github.petrilya.jpastucks.repository.UserRepository</node>
+    <node x="3406.5" y="2213.0">com.github.petrilya.jpastucks.repository.ImageCollectionRepository</node>
+    <node x="810.5" y="982.0">com.github.petrilya.jpastucks.view.ViewCollection</node>
+    <node x="2003.0" y="430.0">com.github.petrilya.jpastucks.entity.Image</node>
+    <node x="1727.5" y="1652.0">com.github.petrilya.jpastucks.entity.User</node>
+    <node x="1433.5" y="3045.0">com.github.petrilya.jpastucks.view.EditCollection</node>
+    <node x="2633.5" y="1125.0">com.github.petrilya.jpastucks.view.PrivateCollectionView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.petrilya.jpastucks.service.UserService" target="com.github.petrilya.jpastucks.repository.UserRepository">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.view.CreateCollection">
+      <point x="53.333333333333314" y="71.0" />
+      <point x="373.3333333333333" y="2680.0" />
+      <point x="-126.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.ViewCollection" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="-149.5" y="-40.0" />
+      <point x="760.0" y="1200.0" />
+      <point x="760.0" y="720.0" />
+      <point x="-117.0" y="120.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.service.ImageService" target="com.github.petrilya.jpastucks.repository.ImageRepository">
+      <point x="93.5" y="40.0" />
+      <point x="2520.0" y="160.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.PrivateCollectionView" target="com.github.petrilya.jpastucks.entity.ImageCollection">
+      <point x="126.5" y="40.0" />
+      <point x="2960.0" y="1280.0" />
+      <point x="2960.0" y="2160.0" />
+      <point x="-100.5" y="-80.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.service.ImageCollectionService" target="com.github.petrilya.jpastucks.entity.ImageCollection">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="181.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.entity.ImageCollection" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="-100.5" y="0.0" />
+      <point x="1920.0" y="2240.0" />
+      <point x="40.0" y="148.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.view.EditCollection">
+      <point x="26.666666666666686" y="71.0" />
+      <point x="346.6666666666667" y="3160.0" />
+      <point x="-126.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.service.ImageService" target="com.github.petrilya.jpastucks.repository.ImageCollectionRepository">
+      <point x="93.5" y="0.0" />
+      <point x="3560.0" y="120.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.ViewCollection" target="com.github.petrilya.jpastucks.service.ImageService">
+      <point x="-149.5" y="0.0" />
+      <point x="560.0" y="1240.0" />
+      <point x="560.0" y="120.0" />
+      <point x="-93.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.CreateCollection" target="com.github.petrilya.jpastucks.service.ImageCollectionService">
+      <point x="126.5" y="40.0" />
+      <point x="1360.0" y="2720.0" />
+      <point x="1360.0" y="3373.3333333333335" />
+      <point x="-180.5" y="-26.666666666666515" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.entity.User" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="152.5" y="-60.0" />
+      <point x="2280.0" y="1740.0" />
+      <point x="2280.0" y="640.0" />
+      <point x="117.0" y="40.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.SwingApp" target="com.github.petrilya.jpastucks.view.UserInterfaceAdapter">
+      <point x="75.0" y="0.0" />
+      <point x="-139.0" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.view.ViewCollection">
+      <point x="120.0" y="71.0" />
+      <point x="440.0" y="1720.0" />
+      <point x="880.0" y="1720.0" />
+      <point x="-80.0" y="258.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.repository.ImageRepository" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="0.0" y="27.0" />
+      <point x="2520.0" y="1760.0" />
+      <point x="152.5" y="-40.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.view.PrivateCollectionView">
+      <point x="0.0" y="71.0" />
+      <point x="320.0" y="3560.0" />
+      <point x="3800.0" y="3560.0" />
+      <point x="3800.0" y="80.0" />
+      <point x="2760.0" y="80.0" />
+      <point x="0.0" y="-115.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.PrivateCollectionView" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="-40.0" y="115.0" />
+      <point x="2720.0" y="1800.0" />
+      <point x="152.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.PrivateCollectionView" target="com.github.petrilya.jpastucks.view.ViewCollection">
+      <point x="-126.5" y="0.0" />
+      <point x="149.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.EditCollection" target="com.github.petrilya.jpastucks.service.UserService">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.CreateCollection" target="com.github.petrilya.jpastucks.view.ViewCollection">
+      <point x="-126.5" y="-120.0" />
+      <point x="960.0" y="2560.0" />
+      <point x="0.0" y="258.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.entity.User" target="com.github.petrilya.jpastucks.entity.ImageCollection">
+      <point x="152.5" y="80.0" />
+      <point x="2080.0" y="1880.0" />
+      <point x="2080.0" y="2220.0" />
+      <point x="-100.5" y="-20.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.EditCollection" target="com.github.petrilya.jpastucks.service.ImageCollectionService">
+      <point x="0.0" y="115.0" />
+      <point x="1560.0" y="3360.0" />
+      <point x="-180.5" y="-40.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="80.0" y="71.0" />
+      <point x="400.0" y="1800.0" />
+      <point x="-152.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.entity.ImageCollection" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="-100.5" y="-120.0" />
+      <point x="3000.0" y="2120.0" />
+      <point x="3000.0" y="600.0" />
+      <point x="117.0" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.ViewCollection" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="149.5" y="40.0" />
+      <point x="2080.0" y="1280.0" />
+      <point x="2080.0" y="1700.0" />
+      <point x="152.5" y="-100.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.entity.Image" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="0.0" y="170.0" />
+      <point x="2120.0" y="1720.0" />
+      <point x="152.5" y="-80.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.CreateCollection" target="com.github.petrilya.jpastucks.entity.ImageCollection">
+      <point x="120.0" y="-126.0" />
+      <point x="1280.0" y="2480.0" />
+      <point x="3100.0" y="2480.0" />
+      <point x="-60.0" y="181.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.repository.ImageRepository" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="-130.5" y="0.0" />
+      <point x="2200.0" y="320.0" />
+      <point x="80.0" y="-170.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.service.ImageService" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="0.0" y="49.0" />
+      <point x="0.0" y="-170.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="80.0" y="-71.0" />
+      <point x="400.0" y="600.0" />
+      <point x="-117.0" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.PrivateCollectionView" target="com.github.petrilya.jpastucks.service.ImageCollectionService">
+      <point x="126.5" y="0.0" />
+      <point x="3760.0" y="1240.0" />
+      <point x="3760.0" y="3520.0" />
+      <point x="3160.0" y="3520.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.CreateCollection" target="com.github.petrilya.jpastucks.entity.Image">
+      <point x="-126.5" y="-80.0" />
+      <point x="640.0" y="2600.0" />
+      <point x="640.0" y="680.0" />
+      <point x="-117.0" y="80.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.repository.ImageCollectionRepository" target="com.github.petrilya.jpastucks.entity.ImageCollection">
+      <point x="-153.5" y="0.0" />
+      <point x="100.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.service.ImageCollectionService">
+      <point x="13.333333333333314" y="71.0" />
+      <point x="333.3333333333333" y="3400.0" />
+      <point x="-180.5" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.repository.UserRepository" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="80.0" y="0.0" />
+      <point x="1840.0" y="2120.0" />
+      <point x="-40.0" y="148.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.service.UserService">
+      <point x="40.0" y="71.0" />
+      <point x="360.0" y="2880.0" />
+      <point x="-111.0" y="0.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.CreateCollection" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="40.0" y="-126.0" />
+      <point x="1200.0" y="2000.0" />
+      <point x="1760.0" y="2000.0" />
+      <point x="-120.0" y="148.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.service.ImageCollectionService" target="com.github.petrilya.jpastucks.repository.ImageCollectionRepository">
+      <point x="180.5" y="0.0" />
+      <point x="3560.0" y="3400.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.UserInterfaceAdapter" target="com.github.petrilya.jpastucks.service.ImageService">
+      <point x="0.0" y="-71.0" />
+      <point x="320.0" y="0.0" />
+      <point x="2120.0" y="0.0" />
+      <point x="0.0" y="-49.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.service.UserService" target="com.github.petrilya.jpastucks.entity.User">
+      <point x="111.0" y="0.0" />
+      <point x="1880.0" y="2880.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="com.github.petrilya.jpastucks.view.EditCollection" target="com.github.petrilya.jpastucks.entity.ImageCollection">
+      <point x="126.5" y="0.0" />
+      <point x="3140.0" y="3160.0" />
+      <point x="-20.0" y="181.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.5760576057605766" x="1023.9193246716168" y="952.038263849229" />
+  <SelectedNodes>
+    <node>com.github.petrilya.jpastucks.view.ViewCollection</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
